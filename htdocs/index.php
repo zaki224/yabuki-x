@@ -21,7 +21,7 @@ if (isset($_GET['q']))
   <body>
     <form method="get">
       <p>
-        <input type="text" name="q" value='<?php echo $paramq; ?>' placeholder="郵便番号" />
+        <input type="text" name="q" value='<?php echo $paramq; ?>' placeholder="郵便番号（ハイフン不要）" />
         <input type="submit" value="search" />
         <span id="output"></span>
       </p>
